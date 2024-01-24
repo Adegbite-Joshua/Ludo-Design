@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUDO GAME</title>
+    <link rel="icon" type="image/x-icon" href="./assets/ludo.jpg">
+</head>
+    <style>
+        td{ background-color: white;
+            width: 35px;
+            height: 35px;
+        }
+        table, tr, td, thead, thead, tbody{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        #green{
+            background-color: green;
+        }
+        #yellow{
+            background-color: yellow;
+        }
+        #red{
+            background-color: red;
+        }
+        #blue{
+            background-color: blue;
+        }
+        table{
+            margin-left: 350px;
+        }
+        #image{
+            width: 190px;
+            height: 190px;
+            border-radius: 8px;
+            margin-left: 20px;
+        }
+        #text-clip {
+            background-image: url(./assets/ludo.gif);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            -webkit-background-clip: text;
+            color: transparent;
+            font-size: 50px;
+        }
+    </style>
+<body>
+    <div style='display: flex; justify-content: center;'>
+        <h3 style='background-color: green; border-radius: 7px;'>
+            <span style='display: block;' id='text-clip'>Ludo Game</span>
+        </h3>
+    </div>
+    <table>
+        <tbody>
+                <tr>
+                    <td rowspan="6" colspan="6" style="background-color: yellow;">
+                        <img src="./assets/yellow.jpg" alt="" id="image">
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="6" rowspan="6" style="background-color: green;">
+                        <img src="./assets/green.jpg" alt="" id="image">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="green"></td>
+                    <td id="green"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="green"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="green"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="green"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="green"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="yellow"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="3" rowspan="3" style="text-align: center;">
+                        <img src="./assets/ludo.jpg" alt="" style="width: 90px; height: 90px;">
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="yellow"></td>
+                    <td id="yellow"></td>
+                    <td id="yellow"></td>
+                    <td id="yellow"></td>
+                    <td id="yellow"></td>
+                    <td id="red"></td>
+                    <td id="red"></td>
+                    <td id="red"></td>
+                    <td id="red"></td>
+                    <td id="red"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="red"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="6" rowspan="6" style="background-color: blue;">
+                        <img src="./assets/chelsea.jpg" alt="" id="image">
+                    </td>
+                    <td></td>
+                    <td id="blue"></td>
+                    <td></td>
+                    <td colspan="6" rowspan="6" style="background-color: red;">
+                        <img src="./assets/arsenal.jpg" alt="" id="image">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="blue"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="blue"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="blue"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td id="blue"></td>
+                    <td id="blue"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+        </tbody>
+    </table>
+
+
+</body>
+</html>
